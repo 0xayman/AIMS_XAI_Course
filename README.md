@@ -78,9 +78,14 @@ cd AIMS_XAI_Course
 ### 2) Create a virtual environment (recommended)
 
 ```bash
+# On Unix/macOS:
 python -m venv .venv
 source .venv/bin/activate
+```
+
+```powershell
 # On Windows (PowerShell):
+python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
