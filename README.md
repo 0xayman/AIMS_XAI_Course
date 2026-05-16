@@ -79,7 +79,9 @@ cd AIMS_XAI_Course
 
 ```bash
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate
+# On Windows (PowerShell):
+.venv\Scripts\Activate.ps1
 ```
 
 ### 3) Install dependencies
@@ -115,7 +117,7 @@ If you are new to XAI, a good sequence is:
 
 ## Datasets and models used
 
-The notebooks use common educational datasets and pretrained model workflows, including Titanic, Diabetes, California Housing, MNIST, and ImageNet-backed examples.
+The notebooks use common educational datasets and pre-trained model workflows, including Titanic, Diabetes, California Housing, MNIST, and ImageNet-backed examples.
 
 Some notebooks may download assets on first run (model weights / dataset files), so internet access can be required.
 
